@@ -1,4 +1,3 @@
-import { SSL_OP_TLS_ROLLBACK_BUG } from 'constants';
 
 var inquirer = require('inquirer');
 var mysql = require("mysql");
@@ -19,6 +18,7 @@ function connectingTo() {
         //running()
     });
 }
+
 
 function running() {
     inquirer
@@ -324,7 +324,7 @@ function addToInventory() {
 
 }
 function departments() {
-console.log("WPI")
+console.log("WIP")
 backFunc()
     // var questions = [
     //     {
